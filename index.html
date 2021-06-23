@@ -2,43 +2,51 @@
 
 <header
 
-    <link href="css/reset" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/main" rel="stylesheet" type="text/css" media="all"/>
-    
+
+    <link href="CSS/reset.css" rel="stylesheet" type="text/css" media="all"/>
+
+    <link href="CSS/main.css" rel="stylesheet" type="text/css" media="all"/>
+ 
     <!-- Google Icons and Fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Google Homepage</title>
-
+    
 </header>
 
-<body>
-    <p>Gmail</p>
-    <p>Images</p>
-    
-    <i class="material-icons">apps</i>
+<body class="body">
+    <div class="page">
+        <div class="toppage">
+            <a href="">Gmail</a>
+            <a href="">Images</a>
+            
+            <i class="material-icons">apps</i>
+            <img src="profile.png" alt="Profile Picture">
+        </div>
 
-    <img src="google-logo.png" alt="Google Logo">
+        <div>
+            <img src="google-logo.png" alt="Google Logo">
+        </div>
 
-    <div class="searchbar">
-        <input type="text" id="searchbar" required>
-    </div>
-    <div>
-        <button id="searchbutton">Google Search</button>
-    </div>
-    <div>
-        <button id="luckybutton">I'm Feeling Lucky</button>
-    </div>
-    
-    <div>
-        <footer>
-            <p>About</p>
-            <p>Advertising</p>
-            <p>Business</p>
-            <p>How Search Works</p>
-            <p>Privacy</p>
-            <p>Terms</p>
-            <p>Settings</p>
-        </footer>
-    </div>
+        <div class="searchbar">
+            <input type="text" id="searchbar">
+        </div>
 
+        <div class="mainbutton">
+            <button id="searchbutton">Google Search</button>
+        </div>
+
+        <div class="mainbutton">
+            <button id="luckybutton">I'm Feeling Lucky</button>
+        </div>
+        
+        <div class="botpage box">
+            <a class="start" href="">About</a>
+            <a class="start" href="">Advertising</a>
+            <a class="start" href="">Business</a>
+            <a class="start" href="">How Search Works</a>
+            <a class="end" href="">Privacy</a>
+            <a class="end" href="">Terms</a>
+            <a class="end" href="">Settings</a>
+        </div>
+    </div>
 </body>
