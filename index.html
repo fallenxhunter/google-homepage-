@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-
 <header
-
-
     <link href="CSS/reset.css" rel="stylesheet" type="text/css" media="all"/>
-
     <link href="CSS/main.css" rel="stylesheet" type="text/css" media="all"/>
- 
+    
     <!-- Google Icons and Fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Google Homepage</title>
@@ -15,41 +11,44 @@
 
 <body id="body">
     <div>
-        <div id="box">
+        <div class="navflex">
             <nav id="navbar">
-                <a href="">Gmail</a>
-                <a href="">Images</a>
+                <a class="navitems" href="">Gmail</a>
+                <a class="navitems" href="">Images</a>
                 
-                <i class="material-icons">apps</i>
-                <img src="profile.png" class="profile-pic" id="profile-pic" alt="Profile Picture">
+                <img src="./Images/apps.png" class="profile-pic  navflex" id="apps" alt="App drawer Icon">
+                <img src="./Images/profile.png" class="profile-pic navflex" id="profile-pic" alt="Profile Picture">
             </nav>
+        </div>
 
-            <div>
-                <img src="google-logo.png" alt="Google Logo">
+        <div class="middle">
+            <div class="logo">
+                <img class="logo" src="./Images/google-logo.png" alt="Google Logo">
             </div>
 
-            <div>
+            <div class="search">
                 <input type="text" id="searchbar">
             </div>
 
-            <div>
-                <div class="mainbutton">
-                    <button id="searchbutton">Google Search</button>
-                </div>
-
-                <div class="mainbutton">
-                    <button id="luckybutton">I'm Feeling Lucky</button>
+            <div class="button">
+                <div>
+                    <button class="mainbutton" id="searchbutton">Google Search</button>
+                </div>      
+                <div>
+                <button class="mainbutton" id="luckybutton">I'm Feeling Lucky</button>
                 </div>
             </div>
         </div>
-        <div class="botpage box">
-            <div>
+        
+        <div class="footer">
+            <div class="left">
                 <a class="start" href="">About</a>
                 <a class="start" href="">Advertising</a>
                 <a class="start" href="">Business</a>
                 <a class="start" href="">How Search Works</a>
             </div> 
-            <div>
+
+            <div class="right">
                 <a class="end" href="">Privacy</a>
                 <a class="end" href="">Terms</a>
                 <a class="end" href="">Settings</a>
