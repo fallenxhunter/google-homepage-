@@ -1,1 +1,1 @@
-Current project is all about practicing what I have learning from FFC course of HTML and CSS. In this project, I will try to replicate the google homepage. I hope it will be good starter project.
+This is the replica of Google Homepage, a little project, I made to practice my skills in CSS and HTML.
